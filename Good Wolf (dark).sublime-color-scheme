@@ -1,0 +1,135 @@
+//                            _               _  __ 
+//                           | |             | |/ _|
+//       __ _  ___   ___   __| |_      _____ | | |_ 
+//      / _` |/ _ \ / _ \ / _` \ \ /\ / / _ \| |  _|
+//     | (_| | (_) | (_) | (_| |\ V  V / (_) | | |  
+//      \__, |\___/ \___/ \__,_| \_/\_/ \___/|_|_|  
+//       __/ |                                      
+//      |___/                                       
+//
+//
+//     :syntax less
+//     :set background=dark
+//
+// A Sublime Text colorscheme ported by Ryan Olson.
+{
+    "name": "Good Wolf (dark)",
+    "author": "Ryan Olson",
+    "variables":
+    {
+        // The most basic of all our colors is a slightly tweaked version of the Molokai
+        // Normal text.
+        "plain": "#f8f6f2",
+
+        // Pure and simple.
+        "snow": "#ffffff",
+        "coal": "#000000",
+
+        // All of the Gravel colors are based on a brown from Clouds Midnight.
+        "brightgravel": "#d9cec3",
+        "lightgravel": "#998f84",
+        "gravel": "#857f78",
+        "mediumgravel": "#666462",
+        "deepgravel": "#45413b",
+        "deepergravel": "#35322d",
+        "darkgravel": "#242321",
+        "blackgravel": "#1c1b1a",
+        "blackestgravel": "#141413",
+
+        // A color sampled from a highlight in a photo of a glass of Dale's Pale Ale on
+        // my desk.
+        "dalespale": "#fade3e",
+
+        // A beautiful tan from Tomorrow Night.
+        "dirtyblonde": "#f4cf86",
+
+        // Delicious, chewy red from Made of Code for the poppiest highlights.
+        "taffy": "#ff2c4b",
+
+        // Another chewy accent, but use sparingly!
+        "saltwatertaffy": "#8cffba",
+
+        // The star of the show comes straight from Made of Code.
+        //
+        // You should almost never use this.  It should be used for things that denote
+        // 'where the user is', which basically consists of:
+        //
+        // * The cursor
+        // * A REPL prompt
+        "tardis": "#0a9dff",
+
+        // This one's from Mustang, not Florida!
+        "orange": "#ffa724",
+
+        // A limier green from Getafe.
+        "lime": "#aeee00",
+
+        // Rose's dress in The Idiot's Lantern.
+        "dress": "#ff9eb8",
+
+        // Another play on the brown from Clouds Midnight.  I love that color.
+        "toffee": "#b88853",
+
+        // Also based on that Clouds Midnight brown.
+        "coffee": "#c7915b",
+        "darkroast": "#88633f",
+    },
+    "globals":
+    {
+        "foreground": "var(plain)",
+        "background": "var(blackestgravel)",
+        "caret": "var(tardis)",
+        "invisibles": "color(var(plain) alpha(0.35))",
+        "line_highlight": "var(darkgravel)",
+        "selection": "var(deepgravel)",
+        "misspelling": "var(taffy)",
+        "find_highlight": "var(dalespale)",
+        "find_highlight_foreground": "var(coal)",
+        "gutter": "var(blackgravel)",
+        "gutter_foreground": "var(mediumgravel)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(gravel)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(lightgravel)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML/JSX tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(darkroast)"
+        },
+        {
+            "name": "HTML/JSX attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(coffee)"
+        },
+        {
+            "name": "Python def",
+            "scope": "storage.type.function",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(dress)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(lime)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(orange)"
+        }
+    ]
+}

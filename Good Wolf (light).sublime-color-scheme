@@ -1,0 +1,136 @@
+//                            _               _  __    __  _ _       _     _    __  
+//                           | |             | |/ _|  / / | (_)     | |   | |   \ \ 
+//       __ _  ___   ___   __| |_      _____ | | |_  | |  | |_  __ _| |__ | |_   | |
+//      / _` |/ _ \ / _ \ / _` \ \ /\ / / _ \| |  _| | |  | | |/ _` | '_ \| __|  | |
+//     | (_| | (_) | (_) | (_| |\ V  V / (_) | | |   | |  | | | (_| | | | | |_   | |
+//      \__, |\___/ \___/ \__,_| \_/\_/ \___/|_|_|   | |  |_|_|\__, |_| |_|\__|  | |
+//       __/ |                                        \_\       __/ |           /_/ 
+//      |___/                                                  |___/                
+//
+//
+//     :syntax less
+//     :set background=light
+//
+// This is a light variant of Good Wolf. It was created by Ryan Olson.
+// Some of the colors have been tweaked for better contrast, but the Spirit of
+// Good Wolf remains.
+{
+    "name": "Good Wolf (Light)",
+    "author": "Ryan Olson",
+    "variables":
+    {
+        // The most basic of all our colors is a slightly tweaked version of the Molokai
+        // Normal text.
+        "plain": "#f8f6f2",
+
+        // Pure and simple.
+        "snow": "#ffffff",
+        "coal": "#000000",
+
+        // All of the Gravel colors are based on a brown from Clouds Midnight.
+        "brightgravel": "#d9cec3",
+        "lightgravel": "#998f84",
+        "gravel": "#857f78",
+        "lightmediumgravel": "#736F68",
+        "mediumgravel": "#666462",
+        "deepgravel": "#45413b",
+        "deepergravel": "#35322d",
+        "darkgravel": "#242321",
+        "blackgravel": "#1c1b1a",
+        "blackestgravel": "#141413",
+
+        // A color sampled from a highlight in a photo of a glass of Dale's Pale Ale on
+        // my desk.
+        "dalespale": "#fade3e",
+
+        // A beautiful tan from Tomorrow Night.
+        "dirtyblonde": "#f4cf86",
+
+        // Delicious, chewy red from Made of Code for the poppiest highlights.
+        "taffy": "#ff2c4b",
+
+        // Another chewy accent, but use sparingly!
+        "saltwatertaffy": "#8cffba",
+
+        // The star of the show comes straight from Made of Code.
+        //
+        // You should almost never use this.  It should be used for things that denote
+        // 'where the user is', which basically consists of:
+        //
+        // * The cursor
+        // * A REPL prompt
+        "tardis": "#0a9dff",
+
+        // This one's from Mustang, not Florida!
+        "orange": "#ffa724",
+
+        // A limier green from Getafe.
+        // Darkened.
+        "lime": "#85be00",
+
+        // Rose's dress in The Idiot's Lantern.
+        "dress": "#ff9eb8",
+
+        // Another play on the brown from Clouds Midnight.  I love that color.
+        "toffee": "#b88853",
+
+        // Also based on that Clouds Midnight brown.
+        // Darkened by 9%.
+        "coffee": "#ad7a45",
+        "darkroast": "#88633f",
+    },
+    "globals":
+    {
+        "foreground": "var(blackestgravel)",
+        "background": "var(plain)",
+        "caret": "var(tardis)",
+        "invisibles": "color(var(blackestgravel) alpha(0.35))",
+        "line_highlight": "color(var(brightgravel) alpha(0.35))",
+        "selection": "var(brightgravel)",
+        "misspelling": "var(taffy)",
+        "find_highlight": "var(dalespale)",
+        "find_highlight_foreground": "var(coal)",
+        "gutter": "var(plain)",
+        "gutter_foreground": "var(gravel)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comments",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(lightmediumgravel)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(deepgravel)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML/JSX tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(darkroast)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML/JSX attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(coffee)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(dress)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(lime)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(orange)"
+        }
+    ]
+}
