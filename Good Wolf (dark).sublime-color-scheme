@@ -124,7 +124,7 @@
         },
         {
             "name": "markup punctuation",
-            "scope": "markup.heading punctuation.definition.heading, punctuation.definition",
+            "scope": "markup.heading punctuation.definition.heading, punctuation.definition.markdown",
             "foreground": "var(lightgravel)",
             "font_style": "bold"
         },
