@@ -107,9 +107,14 @@
             "font_style": "bold"
         },
         {
+            "name": "HTML/JSX tag < or > punctuation",
+            "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
+            "foreground": "var(darkroast)"
+        },
+        {
             "name": "HTML/JSX tag",
             "scope": "entity.name.tag",
-            "foreground": "var(darkroast)",
+            "foreground": "var(coffee)",
             "font_style": "bold"
         },
         {
