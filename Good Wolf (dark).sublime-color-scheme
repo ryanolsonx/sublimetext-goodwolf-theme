@@ -123,6 +123,98 @@
             "font_style": "bold"
         },
         {
+            "name": "markup punctuation",
+            "scope": "markup.heading punctuation.definition.heading, punctuation.definition",
+            "foreground": "var(lightgravel)",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup h1",
+            "scope": "markup.heading.1 entity.name.section",
+            "foreground": "var(orange)",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup h2",
+            "scope": "markup.heading.2 entity.name.section",
+            "foreground": "var(lime)",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup hn",
+            "scope": "markup.heading entity.name.section",
+            "foreground": "var(lime)",
+            "font_style": ""
+        },
+        {
+            "name": "markup links",
+            "scope": "markup.underline.link",
+            "foreground": "var(toffee)",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup link text",
+            "scope": "meta.link.inline.description",
+            "foreground": "var(toffee)",
+            "font_style": "underline"
+        },
+        {
+            "name": "markup bold",
+            "scope": "markup.bold",
+            "foreground": "var(snow)",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup italic",
+            "scope": "markup.italic",
+            "foreground": "var(snow)",
+            "font_style": "italic"
+        },
+        {
+            "name": "markup underline",
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "name": "markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "foreground": "var(snow)",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "foreground": "var(snow)",
+            "font_style": "bold underline"
+        },
+        {
+            "name": "markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "foreground": "var(snow)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "foreground": "var(snow)",
+            "font_style": "bold italic underline"
+        },
+        {
+            "name": "markup bullets",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(lightgravel)"
+        },
+        {
+            "name": "markup bullets",
+            "scope": "markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)",
+            "foreground": "var(lightgravel)"
+        },
+        {
+            "name": "markup code",
+            "scope": "markup.raw",
+            "foreground": "var(dirtyblonde)"
+        },
+        {
             "name": "diff.deleted",
             "scope": "markup.deleted",
             "foreground": "var(dress)"
