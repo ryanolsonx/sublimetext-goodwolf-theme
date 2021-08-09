@@ -1,0 +1,5 @@
+.gitattributes
+"Good Wolf (dark).itermcolors" export-ignore
+"Good Wolf (dark).slack.csv" export-ignore
+"Good Wolf (light).itermcolors" export-ignore
+"Good Wolf (light).slack.csv" export-ignore
