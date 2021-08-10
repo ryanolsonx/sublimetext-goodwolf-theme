@@ -17,4 +17,6 @@ This color scheme is created for Sublime Text. In need of a similar nice light c
 
 To install it, look for "Good Wolf Color Scheme" in [Package Control](https://packagecontrol.io/packages/Good%20Wolf%20Color%20Scheme).
 
-![](https://raw.githubusercontent.com/ryanolsonx/sublimetext-goodwolf-theme/master/GoodWolf.png)
+![](https://raw.githubusercontent.com/ryanolsonx/sublimetext-goodwolf-theme/master/goodwolf-dark.jpg)
+
+![](https://raw.githubusercontent.com/ryanolsonx/sublimetext-goodwolf-theme/master/goodwolf-light.jpg)
