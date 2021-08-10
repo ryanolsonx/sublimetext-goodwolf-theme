@@ -6,7 +6,7 @@ What do I mean by "syntax less"? I mean that the only things that are highlighte
 
 - Strings: they are bolded and in a higher-contrast color than the foreground.
 - Comments: they are a gravel gray color.
-- HTML/JSX tags and attributes: they have brown tones (to stick out more).
+- HTML tags and attributes: they have brown tones (to stick out more).
 - Markdown has highlighting.
 
 For everything else, there is no syntax highlighting. You're free!

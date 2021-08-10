@@ -102,19 +102,19 @@
             "font_style": "bold"
         },
         {
-            "name": "HTML/JSX tag < or > punctuation",
-            "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
+            "name": "HTMLtag < or > punctuation",
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
             "foreground": "var(darkroast)"
         },
         {
-            "name": "HTML/JSX tag",
-            "scope": "entity.name.tag",
+            "name": "HTML tag",
+            "scope": "entity.name.tag.html",
             "foreground": "var(coffee)",
             "font_style": "bold"
         },
         {
-            "name": "HTML/JSX attribute",
-            "scope": "entity.other.attribute-name",
+            "name": "HTML attribute",
+            "scope": "entity.other.attribute-name.html",
             "foreground": "var(coffee)"
         },
         {
