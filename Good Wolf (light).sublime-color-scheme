@@ -121,6 +121,11 @@
             "foreground": "var(coffee)"
         },
         {
+            "name": "Function keyword",
+            "scope": "storage.type.function, keyword.declaration.function",
+            "font_style": "bold"
+        },
+        {
             "name": "markup punctuation",
             "scope": "markup.heading punctuation.definition.heading, punctuation.definition.markdown",
             "foreground": "var(lightgravel)",

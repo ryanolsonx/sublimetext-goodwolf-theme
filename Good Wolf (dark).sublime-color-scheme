@@ -118,8 +118,8 @@
             "foreground": "var(coffee)"
         },
         {
-            "name": "Python def",
-            "scope": "storage.type.function",
+            "name": "Function keyword",
+            "scope": "storage.type.function, keyword.declaration.function",
             "font_style": "bold"
         },
         {
